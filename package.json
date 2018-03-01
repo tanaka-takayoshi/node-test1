@@ -12,14 +12,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-   "hello-npm": "git+ssh://tanaka733@vs-ssh.visualstudio.com:22/DefaultCollection/_ssh/hello-npm" 
-  },
   "bugs": {
     "url": "https://github.com/tanaka-takayoshi/node-test1/issues"
   },
   "homepage": "https://github.com/tanaka-takayoshi/node-test1#readme",
   "dependencies": {
-    "uws": "0.14.5"
+    "uws": "0.14.5",
+    "hello-npm": "git+ssh://tanaka733@vs-ssh.visualstudio.com:22/DefaultCollection/_ssh/hello-npm" 
   }
 }
