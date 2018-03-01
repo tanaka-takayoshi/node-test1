@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+   "hello-npm": "git+ssh://tanaka733@vs-ssh.visualstudio.com:22/DefaultCollection/_ssh/hello-npm" 
+  }
   "bugs": {
     "url": "https://github.com/tanaka-takayoshi/node-test1/issues"
   },
