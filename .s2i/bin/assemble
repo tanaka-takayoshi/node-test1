@@ -1,0 +1,8 @@
+mkdir /opt/app-root/src/.ssh
+chmod 700 /opt/app-root/src/.ssh
+cp /opt/id_rsa /opt/app-root/src/.ssh/id_rsa
+chmod 600 /opt/app-root/src/.ssh/id_rsa
+cp /opt/known_hosts /opt/app-root/src/.ssh/known_hosts
+chmod 644 /opt/app-root/src/.ssh/known_hosts
+
+$STI_SCRIPTS_PATH/assemble
